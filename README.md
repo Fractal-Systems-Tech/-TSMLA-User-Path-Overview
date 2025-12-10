@@ -38,4 +38,6 @@ Not diagnostic. Not generative. Not stochastic. Not advisory. Not a metaphor.
 ## References
 
 - **User Path Overview (v1.4.1)** — [PDF](docs/pdf/TSMLA_User_Path_Overview_v1.4.1.pdf)
-- **Formal Objects Glossary (v1.0)** — [PDF](docs/pdf/TSMLA_Formal_Objects_Glossary_v1.0.pdf)
+
+- **Formal Objects Glossary (v1.0)** — [PDF](docs/pdf/TSMLA_Formal_Objects_Glossary_v1.0.pdf)  
+  _Public specification, excludes θ defaults, κ presets, classifier definitions, and pseudocode; implementation details available under NDA._
