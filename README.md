@@ -24,8 +24,10 @@ TSMLA accepts user-declared signal weights and binds them into a fixed declared 
    - **Traversal violations `{TVᵢ}`** (if any).
    - **Optional graph `G(V,E)`**, where `V` = declared signals and `E` = contradiction edges.
 
-5. **Loopback or export.**  
-   The user may redeclare **S′ ≠ S** and re-run, or export the audit trace. Prior outputs can be compared; otherwise session traces are cleared on exit.
+5. **Loopback, export, or STR™ declaration.**  
+   The user may redeclare **S′ ≠ S** and re-run; export the mirror packet `{Cᵢ}, RSF(S), {TVᵢ}`; or declare a **Signal Traversal Record (STR™)** to enable cross-session continuity.  
+   **Default:** if no STR is declared, session traces are cleared on exit.  
+   **With STR:** the user stores tuples `(Sᵢ, Rᵢ)`; the system retains no hidden memory.
 
 ## Core property
 
@@ -37,7 +39,7 @@ Not diagnostic. Not generative. Not stochastic. Not advisory. Not a metaphor.
 
 ## References
 
-- **User Path Overview (v1.4.1)** — [PDF](/TSMLA_User_Path_Overview_v1.4.1.pdf)
-- **Formal Objects Glossary (v1.0)** — [PDF](/TSMLA_Formal_Objects_Glossary_v1.0.pdf)  
-  _Public specification excludes θ defaults, κ presets, classifier definitions, and pseudocode; implementation details available under NDA._
+- **User Path Overview (v1.5.1)** — [PDF](/docs/pdf/TSMLA_User_Path_Overview_v1.5.1.pdf)
+- **Formal Objects Glossary (v1.1.1)** — [PDF](/docs/pdf/TSMLA_Formal_Objects_Glossary_v1.1.1.pdf)  
+  _Public specification, excludes θ defaults, κ presets, classifier definitions, and pseudocode; implementation details available under NDA._
 
